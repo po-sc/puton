@@ -33,6 +33,20 @@
 
 #2.3
 
-i=0
-['much','code','wow'][i]
+i = 'muchcodewow'
+print(i[:4])
+print(i[4:8])
+print(i[8:11])
 
+
+
+# #2.4
+# lst = ['a', 'b', 'c']
+# lst += 'd'
+# print(lst)
+#
+# lst = lst + 'd' # Ошибка?!
+# print(lst)
+#
+# lst += 42
+# print(lst) # Ошибка?!
